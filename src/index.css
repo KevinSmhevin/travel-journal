@@ -56,21 +56,31 @@ main {
   padding: calc(5px + 0.5vw);
   color: #383838;
   border-radius: 5px;
-  border:  1px solid #789395;
-  width: calc(364px + 9vw);
+  border:  2px solid white;
+  width: calc(400px + 9vw);
   margin: calc(5px + 1vh);
+  background-color: #FAF0D7;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+.travel-image-section {
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
+}
 
 .travel-image {
-  width: calc(240px + 1vw);
+  width: calc(245px + 2vw);
   height: 100%;
   border-radius: 5px;
-  border:  1px solid #789395;
 }
 
 .travel-text-section {
   margin-left: 10px;
+  background-color: #f5fffa;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
 }
 
 .travel-location-section {
@@ -92,7 +102,7 @@ main {
 }
 
 .travel-title {
-  color: #94B49F;
+  color: #36454f;
   font-size: x-large;
   font-weight: bolder;
 }
@@ -101,4 +111,9 @@ main {
   color: #918E9B;
   font-size: x-small;
   font-style: italic;
+}
+
+.travel-description {
+  font-size: x-small;
+  color: #36454f;
 }
