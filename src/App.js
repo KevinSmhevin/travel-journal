@@ -17,7 +17,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-     {travelPosts}
+      <main>
+      {travelPosts}
+     </main>
     </div>
   );
 }
