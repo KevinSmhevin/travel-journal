@@ -39,7 +39,7 @@ main {
 
 .journal-header {
   color: white;
-  font-size: x-large;
+  font-size: calc(0.75rem + 2vw);
   font-weight: bold;
 }
 
@@ -55,8 +55,8 @@ main {
   padding: calc(5px + 0.5vw);
   color: #383838;
   border-radius: 10px;
-  border:  2px solid white;
-  width: calc(400px + 9vw);
+  border:  4px solid white;
+  width: calc(360px + 9vw);
   margin: calc(5px + 1vh);
   background-color: #FAF0D7;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -69,7 +69,7 @@ main {
 }
 
 .travel-image {
-  width: calc(245px + 2vw);
+  width: calc(168px + 4vw);
   height: 100%;
   border-radius: 10px;
 }
@@ -102,7 +102,7 @@ main {
 
 .travel-title {
   color: #36454f;
-  font-size: x-large;
+  font-size: calc(0.5rem + 2vw);
   font-weight: bolder;
 }
 
